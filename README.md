@@ -6,7 +6,7 @@ Our service provider does not give any support for it and won't garantee data co
 They instead recommend to use the soap service. However..
 
 ## How to use the rest service
-The rest service has the same endpoints as the soap service (see [wsdl2html.html](https://git.sinnerschrader.com/blueant/BlueantJS/raw/master/wsdl2html.html))
+The rest service has the same endpoints as the soap service (see [wsdl2html.html](https://github.com/sinnerschrader/BlueantJS/blob/master/wsdl2html.html))
 
 For example you can call _https://{blueantHost}/services/BaseService/Login_ with username and password as get/post parameters.
 As a result you will get a session key which you have to add to all other requests.
@@ -25,7 +25,7 @@ One thing to note: BlueAnt does not return json answers, but only XML.
 * Open http://localhost:3000
 
 ## Library
-This project offers a helper library to use with blueant (see [src/blueant.ts](https://git.sinnerschrader.com/blueant/BlueantJS/blob/master/src/blueant.ts)).
+This project offers a helper library to use with blueant (see [src/blueant.ts](https://github.com/sinnerschrader/BlueantJS/blob/master/src/blueant.ts)).
 
 ### Features
 * Handling of request and responses from blueant
